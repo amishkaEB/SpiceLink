@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ceylon Cinnamon - SpiceCraft</title>
+  <link rel="stylesheet" href="../../assets/css/online_store_css/product.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+ <header class="navbar">
+  <div class="nav-left">
+    <h1 class="logo">Spice Emporium</h1>
+  </div>
+
+  <nav class="nav-center">
+    <a href="#">Home</a>
+    <a href="#">Exotic Spices</a>
+    <a href="#">Herbs</a>
+    <a href="#">Blends</a>
+    <a href="#">Gifts</a>
+  </nav>
+
+  <div class="nav-right">
+    <input type="text" placeholder="Search spices..." class="search-bar">
+    <a href="cart.html" class="cart-link">🛒</a>
+    <img src="../../assets/images/user_profile.png" alt="User" class="profile-img">
+  </div>
+</header>
+
+  <!-- Product Section -->
+  <main class="product-page">
+    <div class="product-container">
+      <!-- Left: Images -->
+      <div class="product-images">
+        <img src="../../assets/images/cinnamon.jpg" alt="Ceylon Cinnamon" class="main-img">
+        <div class="thumbnails">
+          <img src="../../assets/images/cinnamon.jpg" alt="Sticks">
+          <img src="../../assets/images/cinnamon.jpg" alt="Powder">
+          <img src="../../assets/images/cinnamon.jpg" alt="Bundle">
+        </div>
+      </div>
+
+      <!-- Right: Details -->
+      <div class="product-details">
+        <nav class="breadcrumb">
+          <a href="index.html">Shop</a> / 
+          <a href="#">Spices</a> / 
+          <span>Ceylon Cinnamon</span>
+        </nav>
+
+        <h2>Ceylon Cinnamon</h2>
+        <p class="price">$12.99</p>
+        <p class="desc">
+          Our Ceylon Cinnamon, sourced directly from Sri Lanka, offers a delicate, 
+          sweet flavor profile with subtle citrus notes. Perfect for both sweet and 
+          savory dishes, this premium cinnamon adds a touch of warmth and 
+          sophistication to your culinary creations.
+        </p>
+
+        <!-- Size options -->
+        <div class="options">
+          <p><strong>Size</strong></p>
+          <div class="sizes">
+            <button class="size-btn active">2 oz</button>
+            <button class="size-btn">4 oz</button>
+            <button class="size-btn">8 oz</button>
+          </div>
+        </div>
+
+        <!-- Quantity + Cart -->
+        <div class="purchase">
+          <input type="number" value="1" min="1" class="qty">
+          <button class="add-cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Reviews -->
+    <section class="reviews">
+      <h3>Customer Reviews</h3>
+
+      <div class="review">
+        <img src="../../assets/images/user_profile.png" alt="Sophia" class="review-img">
+        <div>
+          <p><strong>Sophia Bennett</strong> <span class="date">January 15, 2024</span></p>
+          <p class="stars">⭐⭐⭐⭐⭐</p>
+          <p>Absolutely love this cinnamon! The flavor is so much richer and more complex than the cinnamon I used to buy at the grocery store. It's a game-changer for my baking.</p>
+        </div>
+      </div>
+
+      <div class="review">
+        <img src="../../assets/images/user_profile.png" alt="Ethan" class="review-img">
+        <div>
+          <p><strong>Ethan Carter</strong> <span class="date">December 20, 2023</span></p>
+          <p class="stars">⭐⭐⭐⭐⭐</p>
+          <p>Great quality cinnamon. The aroma is amazing, and it adds a wonderful flavor to my morning oatmeal. Will definitely buy again.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-col">
+        <h4>SpiceCraft</h4>
+        <p>Bringing the world’s finest spices to your kitchen.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <a href="#">Spices</a>
+        <a href="#">Herbs</a>
+        <a href="#">Blends</a>
+        <a href="#">Gifts</a>
+      </div>
+      <div class="footer-col">
+        <h4>About</h4>
+        <a href="#">Our Story</a>
+        <a href="#">Recipes</a>
+        <a href="#">Blog</a>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <a href="#">Contact Us</a>
+        <a href="#">FAQs</a>
+        <a href="#">Shipping & Returns</a>
+      </div>
+    </div>
+    <p class="footer-bottom">© 2024 SpiceCraft. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>

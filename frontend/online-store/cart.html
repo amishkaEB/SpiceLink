@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Cart - SpiceCraft</title>
+  <link rel="stylesheet" href="../../assets/css/online_store_css/cart.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="nav-left">
+      <h1 class="logo">Spice Emporium</h1>
+    </div>
+
+    <nav class="nav-center">
+      <a href="#">Home</a>
+      <a href="#">Exotic Spices</a>
+      <a href="#">Herbs</a>
+      <a href="#">Blends</a>
+      <a href="#">Gifts</a>
+    </nav>
+
+    <div class="nav-right">
+      <input type="text" placeholder="Search spices..." class="search-bar">
+      <a href="cart.html" class="cart-link">🛒</a>
+      <img src="../../assets/images/user_profile.png" alt="User" class="profile-img">
+    </div>
+  </header>
+
+  <!-- Cart Section -->
+  <main class="cart-container">
+    <h1 class="cart-title">Your Cart</h1>
+    
+    <!-- Cart Items -->
+    <div class="cart-items">
+      <table class="cart-table">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="product-info">
+                <img src="../../assets/images/cinnamon.jpg" alt="Cinnamon Sticks" class="product-image" />
+                <div class="product-name">Cinnamon Sticks</div>
+              </div>
+            </td>
+            <td class="price">$5.99</td>
+            <td>
+              <div class="quantity-controls">
+                <button class="quantity-btn">-</button>
+                <span class="quantity">2</span>
+                <button class="quantity-btn">+</button>
+              </div>
+            </td>
+            <td class="total">$11.98</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="product-info">
+                <img src="../../assets/images/Turmeric.jpg" alt="Turmeric Powder" class="product-image" />
+                <div class="product-name">Turmeric Powder</div>
+              </div>
+            </td>
+            <td class="price">$4.49</td>
+            <td>
+              <div class="quantity-controls">
+                <button class="quantity-btn">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn">+</button>
+              </div>
+            </td>
+            <td class="total">$4.49</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="product-info">
+                <img src="../../assets/images/black-pepper.jpg" alt="Black Peppercorns" class="product-image" />
+                <div class="product-name">Black Peppercorns</div>
+              </div>
+            </td>
+            <td class="price">$3.99</td>
+            <td>
+              <div class="quantity-controls">
+                <button class="quantity-btn">-</button>
+                <span class="quantity">3</span>
+                <button class="quantity-btn">+</button>
+              </div>
+            </td>
+            <td class="total">$11.97</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    
+    <!-- Order Summary -->
+    <div class="order-summary">
+      <h3>Order Summary</h3>
+      
+      <div class="summary-row">
+        <span class="summary-label">Subtotal</span>
+        <span class="summary-value">$28.44</span>
+      </div>
+      
+      <div class="summary-row">
+        <div>
+          <span class="summary-label">Shipping</span>
+          <div class="shipping-note">Calculated at checkout</div>
+        </div>
+        <span class="summary-value">-</span>
+      </div>
+      
+      <div class="summary-row">
+        <span class="summary-label estimated-total">Estimated Total</span>
+        <span class="summary-value estimated-total">$28.44</span>
+      </div>
+      
+      <button class="checkout-btn">Proceed to Checkout</button>
+    </div>
+  </main>
+
+</body>
+</html>

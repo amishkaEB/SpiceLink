@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Account - SpiceCraft</title>
+  <link rel="stylesheet" href="../../assets/css/online_store_css/cart.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+  <div class="nav-left">
+    <h1 class="logo">Spice Emporium</h1>
+  </div>
+
+  <nav class="nav-center">
+    <a href="#">Home</a>
+    <a href="#">Exotic Spices</a>
+    <a href="#">Herbs</a>
+    <a href="#">Blends</a>
+    <a href="#">Gifts</a>
+  </nav>
+
+  <div class="nav-right">
+    <input type="text" placeholder="Search spices..." class="search-bar">
+    <a href="cart.html" class="cart-link">🛒</a>
+    <img src="../../assets/images/user_profile.png" alt="User" class="profile-img">
+  </div>
+</header>
+
+  <!-- Account Section -->
+  <main class="account">
+    <h2>My Account</h2>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab active">Orders</button>
+      <button class="tab">Account Details</button>
+    </div>
+
+    <!-- Order History -->
+    <section class="order-history">
+      <h3>Order History</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>ORDER #</th>
+            <th>DATE</th>
+            <th>STATUS</th>
+            <th>TOTAL</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>#12345</td>
+            <td>July 15, 2023</td>
+            <td><span class="status delivered">Delivered</span></td>
+            <td>$55.00</td>
+            <td><a href="#" class="details">View Details</a></td>
+          </tr>
+          <tr>
+            <td>#67890</td>
+            <td>June 20, 2023</td>
+            <td><span class="status shipped">Shipped</span></td>
+            <td>$32.50</td>
+            <td><a href="#" class="details">View Details</a></td>
+          </tr>
+          <tr>
+            <td>#11223</td>
+            <td>May 5, 2023</td>
+            <td><span class="status delivered">Delivered</span></td>
+            <td>$78.99</td>
+            <td><a href="#" class="details">View Details</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Current Orders -->
+    <section class="current-orders">
+      <h3>Current Orders</h3>
+      <div class="empty-state">
+        <img src="https://cdn-icons-png.flaticon.com/512/679/679922.png" alt="Empty box">
+        <p class="no-orders">No current orders to track</p>
+        <p class="subtext">You haven't placed any orders yet. Browse our selection of spices and start your culinary journey.</p>
+        <button class="shop-btn">Shop Spices</button>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>

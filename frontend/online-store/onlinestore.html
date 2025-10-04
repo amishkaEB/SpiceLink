@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spice Emporium - Online Store</title>
+  <link rel="stylesheet" href="../../assets/css/online_store_css/onlinestore.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+  <div class="nav-left">
+    <h1 class="logo">Spice Emporium</h1>
+  </div>
+
+  <nav class="nav-center">
+    <a href="#">Home</a>
+    <a href="#">Exotic Spices</a>
+    <a href="#">Herbs</a>
+    <a href="#">Blends</a>
+    <a href="#">Gifts</a>
+  </nav>
+
+  <div class="nav-right">
+    <input type="text" placeholder="Search spices..." class="search-bar">
+    <a href="cart.html" class="cart-link">🛒</a>
+    <img src="../../assets/images/user_profile.png" alt="User" class="profile-img">
+  </div>
+</header>
+
+  <!-- Main Layout -->
+  <main class="container">
+    <!-- Sidebar Filters -->
+    <aside class="sidebar">
+      <h2>Filters</h2>
+
+      <label class="filter-label">Price Range</label>
+      <input type="range" min="1" max="100" value="50" class="filter-range">
+
+      <label class="filter-label">Origin</label>
+      <div class="filter-group">
+        <label><input type="checkbox"> India</label>
+        <label><input type="checkbox"> Vietnam</label>
+        <label><input type="checkbox"> Mexico</label>
+        <label><input type="checkbox"> Spain</label>
+      </div>
+
+      <label class="filter-label">Spice Type</label>
+      <div class="filter-group">
+        <label><input type="checkbox"> Powder</label>
+        <label><input type="checkbox"> Whole</label>
+        <label><input type="checkbox"> Dried</label>
+        <label><input type="checkbox"> Extract</label>
+        <label><input type="checkbox"> Blend</label>
+      </div>
+    </aside>
+
+    <!-- Product Grid -->
+    <section class="products">
+      <h2>All Spices</h2>
+      <div class="product-grid">
+
+        <!-- Product Card -->
+        <div class="card">
+          <img src="../../assets/images/Turmeric.jpg" alt="Turmeric Powder">
+          <h3>Turmeric Powder</h3>
+          <p class="price">$5.99</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+
+        <div class="card">
+          <img src="../../assets/images/cinnamon.jpg" alt="Cinnamon Sticks">
+          <h3>Cinnamon Sticks</h3>
+          <p class="price">$4.50</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+
+        <div class="card">
+          <img src="../../assets/images/chillie-flakes.jpg" alt="Chili Flakes">
+          <h3>Chili Flakes</h3>
+          <p class="price">$3.75</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+
+        <div class="card">
+          <img src="../../assets/images/saffron.jpg" alt="Saffron Threads">
+          <h3>Saffron Threads</h3>
+          <p class="price">$12.00</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+
+        <div class="card">
+          <img src="../../assets/images/black-pepper.jpg" alt="Black Peppercorns">
+          <h3>Black Peppercorns</h3>
+          <p class="price">$6.25</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+
+        <div class="card">
+          <img src="../../assets/images/ginger.jpg" alt="Ginger Root">
+          <h3>Ginger Root</h3>
+          <p class="price">$4.00</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+
+      </div>
+
+      <!-- Pagination -->
+      <div class="pagination">
+        <button class="page-btn">1</button>
+        <button class="page-btn">2</button>
+        <button class="page-btn">3</button>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
